@@ -1,6 +1,6 @@
 # Em::Rubyserial
 
-EventMachine serial port functionality that should work on all* ruby versions
+EventMachine serial port functionality that should work on all* ruby flavors
 
 (* for some values of all)
 
@@ -41,7 +41,7 @@ Or install it yourself as:
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/em-rubyserial/fork )
+1. Fork it ( https://github.com/jcantara/em-rubyserial/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
