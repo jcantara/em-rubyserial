@@ -4,6 +4,8 @@ EventMachine serial port functionality that should work on all* ruby flavors
 
 (* for some values of all)
 
+[![Build Status](https://travis-ci.org/jcantara/em-rubyserial.svg?branch=master)](https://travis-ci.org/jcantara/em-rubyserial)
+
 Uses the following gem for serial port connectivity:
 https://github.com/hybridgroup/rubyserial
 
