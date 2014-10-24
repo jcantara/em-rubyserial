@@ -1,6 +1,6 @@
 # Em::Rubyserial
 
-EventMachine serial port functionality that should work on all* ruby flavors
+EventMachine serial port functionality that should work on all* ruby flavors (including jruby, and various operating systems, should work on linux, windows, and mac)
 
 (* for some values of all)
 
