@@ -7,7 +7,6 @@ rvm:
   - jruby-18mode
   - jruby-19mode
   - rbx-2
-  - ruby-head
   - jruby-head
   - ree
 install:
