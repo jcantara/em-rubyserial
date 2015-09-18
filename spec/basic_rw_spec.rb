@@ -32,7 +32,7 @@ describe "basic reading and writing" do
       serial = EventMachine.open_serial(@ptys[0][0], 9600, 8)
 
       serial.on_data do |data|
-        expect(data).to eq "hello\x00"
+        expect(data).to eq "hello"
         EM.stop_event_loop
       end
     end

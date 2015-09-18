@@ -16,6 +16,8 @@ but replaces the serialport gem with the rubyserial gem, and does some file desc
 
 There is currently as of this writing no license on the em-serialport gem, so hopefully this amount of attribution is satisfactory. 
 
+[CHANGELOG](https://github.com/jcantara/em-rubyserial/blob/master/CHANGELOG.md)
+
 ## Installation
 
 Add this line to your application's Gemfile:

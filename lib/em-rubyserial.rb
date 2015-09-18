@@ -47,11 +47,10 @@ module EventMachine
     def self.open(dev, baud, databits)
       serialport = ::Serial.new(dev, baud, databits)
       if RUBY_PLATFORM == "java"
-        io = IO.new(FFI::IO.for_fd(serialport.instance_variable_get(:@fd)).to_i, 'r+')
+        io = FFI::FileDescriptorIO.new(serialport.instance_variable_get(:@fd).to_i)
       else
         io = IO.new(serialport.instance_variable_get(:@fd), 'r+')
       end
-      io.instance_variable_set(:@serialport, serialport) # hang on to our serial port so it doesn't get closed and close our file descriptor
       self.new(io)
     end
 
