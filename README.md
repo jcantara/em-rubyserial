@@ -1,8 +1,12 @@
-# Em::Rubyserial
+# DEPRECATED - Em::Rubyserial
+
+Deprecating this project because I have not maintained it in a long time, and do not have the time or need to do so any longer.
 
 EventMachine serial port functionality that should work on all* ruby flavors (including MRI, jruby; and various operating systems including linux, windows, and apple)
 
 (* for some values of all)
+
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 [![Build Status](https://travis-ci.org/jcantara/em-rubyserial.svg?branch=master)](https://travis-ci.org/jcantara/em-rubyserial)
 
